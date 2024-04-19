@@ -8,7 +8,7 @@ PODS:
     - Capacitor
   - CapacitorKeyboard (5.0.2):
     - Capacitor
-  - VelocityCubedCapacitorSecureStoragePlugin (0.8.1):
+  - VelocitycubedCapacitorSecureStoragePlugin (0.8.1):
     - Capacitor
     - SwiftKeychainWrapper
   - CapacitorStatusBar (5.0.2):
@@ -21,7 +21,7 @@ DEPENDENCIES:
   - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
   - "CapacitorHaptics (from `../../node_modules/@capacitor/haptics`)"
   - "CapacitorKeyboard (from `../../node_modules/@capacitor/keyboard`)"
-  - VelocityCubedCapacitorSecureStoragePlugin (from `../../..`)
+  - VelocitycubedCapacitorSecureStoragePlugin (from `../../..`)
   - "CapacitorStatusBar (from `../../node_modules/@capacitor/status-bar`)"
 
 SPEC REPOS:
