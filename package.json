@@ -1,6 +1,6 @@
 {
-  "name": "capacitor-secure-storage-plugin",
-  "version": "0.9.0",
+  "name": "@velocitycubed/capacitor-secure-storage-plugin",
+  "version": "0.10.0",
   "description": "Securely store secrets such as usernames, passwords, tokens, certificates or other sensitive information (strings) on iOS & Android",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -17,10 +17,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/martinkasa/capacitor-secure-storage-plugin.git"
+    "url": "https://github.com/VelocityCubed/capacitor-secure-storage-plugin.git"
   },
   "bugs": {
-    "url": "https://github.com/martinkasa/capacitor-secure-storage-plugin.git/issues"
+    "url": "https://github.com/VelocityCubed/capacitor-secure-storage-plugin.git/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "capacitor",
@@ -44,11 +47,11 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "@capacitor/android": "^5.0.0",
-    "@capacitor/cli": "^5.0.0",
-    "@capacitor/core": "^5.0.0",
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
     "@capacitor/docgen": "^0.2.0",
-    "@capacitor/ios": "^5.0.0",
+    "@capacitor/ios": "^6.0.0",
     "@ionic/eslint-config": "^0.3.0",
     "@ionic/prettier-config": "^1.0.1",
     "@ionic/swiftlint-config": "^1.1.2",
@@ -61,7 +64,7 @@
     "typescript": "~4.0.3"
   },
   "peerDependencies": {
-    "@capacitor/core": "^5.0.0"
+    "@capacitor/core": "^6.0.0"
   },
   "prettier": "@ionic/prettier-config",
   "swiftlint": "@ionic/swiftlint-config",
